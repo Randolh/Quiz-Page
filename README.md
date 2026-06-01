@@ -64,13 +64,3 @@ Para modificar las preguntas, edita dicho archivo asegurándote de seguir el sig
 }
 ```
 *(Nota: `correct_index` corresponde al índice base 0 del arreglo de `options`)*.
-
-## Despliegue en GitHub Pages
-
-Al ser una aplicación 100% estática, su despliegue en [GitHub Pages](https://pages.github.com/) es directo:
-
-1.  Crea un repositorio en GitHub y sube los archivos de este proyecto (incluyendo `index.html`, `styles.css`, `app.js` y `questions.json`).
-2.  En GitHub, ve a **Settings** > **Pages**.
-3.  Bajo **Build and deployment**, selecciona **Deploy from a branch**.
-4.  En la sección de Branch, selecciona la rama principal (ej. `main` o `master`) y la carpeta `/(root)`.
-5.  Haz clic en **Save**. ¡En pocos minutos tu aplicación estará en vivo!

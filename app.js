@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         state.examQuestions.forEach((q, idx) => {
             const userAnswerIdx = state.userAnswers[idx];
-            const isCorrect = userAnswerIdx === q.correctAnswer;
+            const isCorrect = userAnswerIdx === q.correct_index;
             
             if (isCorrect) correctCount++;
 
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
             item.className = `review-item ${isCorrect ? 'correct' : 'incorrect'}`;
             
             const userAnswerText = userAnswerIdx !== null ? q.options[userAnswerIdx] : 'No respondida';
-            const correctAnswerText = q.options[q.correctAnswer];
+            const correctAnswerText = q.options[q.correct_index];
 
             item.innerHTML = `
                 <div class="review-q">${idx + 1}. ${q.question}</div>

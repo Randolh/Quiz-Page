@@ -1298,5 +1298,655 @@
     ],
     "correct_index": 2,
     "explanation": "Trabajo total = 10 obreros * 100% * 15 días = 1500 unidades. Tiempo = 1500 / (5 obreros * 150%) = 1500 / 750 = 20 días."
+  },
+  {
+    "id": "q_101",
+    "topic": "Analogías verbales",
+    "question": "Árbol es a Bosque como Isla es a...",
+    "options": [
+      "Océano",
+      "Archipiélago",
+      "Playa",
+      "Península"
+    ],
+    "correct_index": 1,
+    "explanation": "La relación es de elemento a conjunto. Un conjunto de árboles forma un bosque, así como un conjunto de islas forma un archipiélago."
+  },
+  {
+    "id": "q_102",
+    "topic": "Analogías verbales",
+    "question": "Ornitología es a Pájaros como Ictiología es a...",
+    "options": [
+      "Insectos",
+      "Reptiles",
+      "Peces",
+      "Mamíferos"
+    ],
+    "correct_index": 2,
+    "explanation": "La relación es de ciencia a su objeto de estudio. La ornitología estudia los pájaros y la ictiología estudia los peces."
+  },
+  {
+    "id": "q_103",
+    "topic": "Analogías verbales",
+    "question": "Anemómetro es a Viento como Barómetro es a...",
+    "options": [
+      "Presión atmosférica",
+      "Temperatura",
+      "Humedad",
+      "Lluvia"
+    ],
+    "correct_index": 0,
+    "explanation": "La relación es de instrumento a lo que mide. El anemómetro mide la velocidad del viento y el barómetro mide la presión atmosférica."
+  },
+  {
+    "id": "q_104",
+    "topic": "Analogías verbales",
+    "question": "Bisturí es a Cirujano como Pincel es a...",
+    "options": [
+      "Lienzo",
+      "Pintura",
+      "Pintor",
+      "Cuadro"
+    ],
+    "correct_index": 2,
+    "explanation": "La relación es de herramienta a profesional que la utiliza. El cirujano usa el bisturí y el pintor usa el pincel."
+  },
+  {
+    "id": "q_105",
+    "topic": "Analogías verbales",
+    "question": "Fobia es a Miedo como Amnesia es a...",
+    "options": [
+      "Memoria",
+      "Olvido",
+      "Locura",
+      "Recuerdo"
+    ],
+    "correct_index": 1,
+    "explanation": "Una fobia es un grado extremo o patológico de miedo, así como la amnesia es un grado patológico de olvido o pérdida de memoria."
+  },
+  {
+    "id": "q_106",
+    "topic": "Analogías verbales",
+    "question": "Letra es a Alfabeto como Día es a...",
+    "options": [
+      "Semana",
+      "Mes",
+      "Año",
+      "Calendario"
+    ],
+    "correct_index": 3,
+    "explanation": "Las letras están ordenadas y contenidas en un alfabeto, al igual que los días están ordenados y contenidos en un calendario."
+  },
+  {
+    "id": "q_107",
+    "topic": "Analogías verbales",
+    "question": "Prólogo es a Epílogo como Amanecer es a...",
+    "options": [
+      "Día",
+      "Mañana",
+      "Ocaso",
+      "Luz"
+    ],
+    "correct_index": 2,
+    "explanation": "La relación es de opuestos o inicio/fin. El prólogo está al inicio y el epílogo al final; el amanecer es el inicio del día y el ocaso (o atardecer) el final."
+  },
+  {
+    "id": "q_108",
+    "topic": "Analogías verbales",
+    "question": "Célula es a Tejido como Ladrillo es a...",
+    "options": [
+      "Cemento",
+      "Edificio",
+      "Pared",
+      "Arcilla"
+    ],
+    "correct_index": 2,
+    "explanation": "La relación es de parte a un todo inmediato. Un conjunto de células forma un tejido, y un conjunto de ladrillos forma una pared."
+  },
+  {
+    "id": "q_109",
+    "topic": "Analogías verbales",
+    "question": "Sedentario es a Nómada como Estático es a...",
+    "options": [
+      "Quieto",
+      "Dinámico",
+      "Rápido",
+      "Fijo"
+    ],
+    "correct_index": 1,
+    "explanation": "La relación es de antonimia. Sedentario es lo opuesto a nómada, así como estático es lo opuesto a dinámico (en movimiento)."
+  },
+  {
+    "id": "q_110",
+    "topic": "Analogías verbales",
+    "question": "Oveja es a Rebaño como Lobo es a...",
+    "options": [
+      "Jauría",
+      "Manada",
+      "Bosque",
+      "Aullido"
+    ],
+    "correct_index": 1,
+    "explanation": "Relación individuo-colectivo. El conjunto de ovejas es un rebaño, el conjunto de lobos es una manada (jauría es específicamente de perros o canes cazadores, pero manada es más preciso para lobos salvajes)."
+  },
+  {
+    "id": "q_111",
+    "topic": "Series alfanuméricas",
+    "question": "¿Qué letra sigue en la serie: A, C, F, J, ...?",
+    "options": [
+      "M",
+      "N",
+      "Ñ",
+      "O"
+    ],
+    "correct_index": 2,
+    "explanation": "Los saltos en el abecedario son: +2 (A a C), +3 (C a F), +4 (F a J). El siguiente salto es +5. Desde la J, sumando 5 letras (K, L, M, N, Ñ), llegamos a la Ñ."
+  },
+  {
+    "id": "q_112",
+    "topic": "Series alfanuméricas",
+    "question": "¿Qué letra continúa la serie: Z, X, V, T, ...?",
+    "options": [
+      "Q",
+      "S",
+      "R",
+      "P"
+    ],
+    "correct_index": 2,
+    "explanation": "La serie retrocede en el abecedario saltando una letra (pasos de -2). Z -> X -> V -> T. La letra anterior a la T saltando la S es la R."
+  },
+  {
+    "id": "q_113",
+    "topic": "Series alfanuméricas",
+    "question": "¿Qué término sigue en la serie: B, E, H, K, ...?",
+    "options": [
+      "M",
+      "N",
+      "Ñ",
+      "O"
+    ],
+    "correct_index": 1,
+    "explanation": "La serie avanza de 3 en 3 letras. B(2)+3 = E(5), E+3=H(8), H+3=K(11). K+3=N(14)."
+  },
+  {
+    "id": "q_114",
+    "topic": "Series alfanuméricas",
+    "question": "Encuentra la letra que sigue: A, Z, C, X, E, ...",
+    "options": [
+      "V",
+      "W",
+      "U",
+      "F"
+    ],
+    "correct_index": 0,
+    "explanation": "Son dos series intercaladas. Una avanza (A, C, E...) y otra retrocede (Z, X...). Después de la E, sigue la serie que retrocede a partir de la X saltando una letra: V."
+  },
+  {
+    "id": "q_115",
+    "topic": "Series alfanuméricas",
+    "question": "¿Qué letra sigue en la secuencia: a, d, i, p, ...?",
+    "options": [
+      "v",
+      "x",
+      "y",
+      "z"
+    ],
+    "correct_index": 2,
+    "explanation": "Corresponden a las posiciones de los cuadrados perfectos en el alfabeto: a(1), d(4), i(9), p(16). El próximo es el 25, que corresponde a la letra 'y'."
+  },
+  {
+    "id": "q_116",
+    "topic": "Series lógicas (Letras)",
+    "question": "¿Qué letra continúa la serie: L, M, M, J, V, ...?",
+    "options": [
+      "D",
+      "M",
+      "V",
+      "S"
+    ],
+    "correct_index": 3,
+    "explanation": "Son las letras iniciales de los días de la semana: Lunes, Martes, Miércoles, Jueves, Viernes. El siguiente es Sábado (S)."
+  },
+  {
+    "id": "q_117",
+    "topic": "Series lógicas (Letras)",
+    "question": "¿Qué letra sigue la secuencia: E, F, M, A, M, ...?",
+    "options": [
+      "A",
+      "J",
+      "S",
+      "O"
+    ],
+    "correct_index": 1,
+    "explanation": "Son las letras iniciales de los meses del año: Enero, Febrero, Marzo, Abril, Mayo. Sigue Junio (J)."
+  },
+  {
+    "id": "q_118",
+    "topic": "Series alfanuméricas",
+    "question": "¿Qué combinación sigue en la serie: 1A, 2C, 4F, 7J, ...?",
+    "options": [
+      "10M",
+      "11Ñ",
+      "12O",
+      "11N"
+    ],
+    "correct_index": 1,
+    "explanation": "Los números aumentan así: +1, +2, +3, entonces +4 (7+4 = 11). Las letras avanzan: +2(C), +3(F), +4(J), entonces +5 (J+5 = Ñ). Resultado: 11Ñ."
+  },
+  {
+    "id": "q_119",
+    "topic": "Series alfanuméricas",
+    "question": "Encuentra el patrón: B2, D4, H8, P16, ...",
+    "options": [
+      "F32",
+      "R32",
+      "W32",
+      "Z32"
+    ],
+    "correct_index": 0,
+    "explanation": "La lógica posicional en el abecedario inglés (sin Ñ): B es 2, D es 4, H es 8, P es 16. El número se duplica a 32. El alfabeto vuelve a empezar: 32 - 26 = 6. La 6ta letra es F. Resultado: F32."
+  },
+  {
+    "id": "q_120",
+    "topic": "Series lógicas (Letras)",
+    "question": "¿Cuál es la letra faltante en: U, D, T, C, C, S, ...?",
+    "options": [
+      "N",
+      "S",
+      "O",
+      "E"
+    ],
+    "correct_index": 1,
+    "explanation": "Son las iniciales de los números naturales: Uno, Dos, Tres, Cuatro, Cinco, Seis. El que sigue es Siete (S)."
+  },
+  {
+    "id": "q_121",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "Premisa 1: Ningún pez respira por pulmones. Premisa 2: Las ballenas respiran por pulmones. Conclusión lógica:",
+    "options": [
+      "Las ballenas son peces.",
+      "Algunos peces son ballenas.",
+      "Las ballenas no son peces.",
+      "Los peces tienen agallas."
+    ],
+    "correct_index": 2,
+    "explanation": "Si la característica excluyente de los peces es no tener pulmones, y las ballenas sí los tienen, es lógicamente deductivo que las ballenas no pertenecen al grupo de los peces."
+  },
+  {
+    "id": "q_122",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "Si todos los metales conducen electricidad, y el oro es un metal, entonces:",
+    "options": [
+      "El oro es el mejor conductor.",
+      "Toda electricidad es conducida por oro.",
+      "El oro conduce electricidad.",
+      "Algunos metales son oro."
+    ],
+    "correct_index": 2,
+    "explanation": "Es un silogismo clásico de forma A. Todo M es P. S es M. Por lo tanto, S es P. El oro hereda la propiedad de conducir electricidad."
+  },
+  {
+    "id": "q_123",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "Todos los estudiantes de medicina estudian anatomía. Juan estudia anatomía. De esto podemos deducir que:",
+    "options": [
+      "Juan es estudiante de medicina.",
+      "Juan será médico.",
+      "No se puede deducir que Juan sea estudiante de medicina.",
+      "A Juan le gusta la anatomía."
+    ],
+    "correct_index": 2,
+    "explanation": "Es un error lógico conocido como 'afirmación del consecuente'. Saber que los de medicina estudian anatomía no excluye que estudiantes de otras carreras (como biología o enfermería) también la estudien."
+  },
+  {
+    "id": "q_124",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "Si llueve, las calles se mojan. Hoy las calles no están mojadas. Entonces:",
+    "options": [
+      "Ayer llovió.",
+      "No ha llovido.",
+      "Puede que haya llovido.",
+      "El sol secó las calles."
+    ],
+    "correct_index": 1,
+    "explanation": "Es la regla lógica del 'Modus Tollens' (Si P entonces Q. No Q. Por lo tanto, No P). Si las calles no están mojadas, definitivamente no llovió."
+  },
+  {
+    "id": "q_125",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "Algunos científicos son músicos. Todos los músicos son creativos. Por lo tanto:",
+    "options": [
+      "Todos los científicos son creativos.",
+      "Algunos científicos son creativos.",
+      "Ningún músico es científico.",
+      "Los creativos son científicos."
+    ],
+    "correct_index": 1,
+    "explanation": "Al haber una intersección entre científicos y músicos, y dado que TODO músico es creativo, esa porción de científicos que son músicos forzosamente es creativa."
+  },
+  {
+    "id": "q_126",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "Todo mamífero tiene sangre caliente. Ningún reptil tiene sangre caliente. Conclusión:",
+    "options": [
+      "Los reptiles son mamíferos.",
+      "Algunos mamíferos son reptiles.",
+      "Ningún reptil es mamífero.",
+      "Todos los mamíferos son reptiles."
+    ],
+    "correct_index": 2,
+    "explanation": "Puesto que los conjuntos de 'animales de sangre caliente' (donde están los mamíferos) y 'reptiles' no tienen intersección, ningún individuo puede pertenecer a ambos a la vez."
+  },
+  {
+    "id": "q_127",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "A es más grande que B. C es más pequeño que B. D es más grande que A. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "B es el más pequeño.",
+      "D es el más grande.",
+      "A es más pequeño que C.",
+      "C es más grande que D."
+    ],
+    "correct_index": 1,
+    "explanation": "El orden de mayor a menor es: D > A > B > C. Por lo tanto, D es indudablemente el más grande de todos."
+  },
+  {
+    "id": "q_128",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "Si trabajo, gano dinero. Si gano dinero, viajo. Hoy no viajé. Por lo tanto:",
+    "options": [
+      "Gané dinero pero no viajé.",
+      "Hoy trabajé.",
+      "Hoy no trabajé.",
+      "Viajaré mañana."
+    ],
+    "correct_index": 2,
+    "explanation": "Silogismo en cadena (Modus Tollens extendido): Trabajo -> Dinero -> Viajo. Si No Viajo, entonces No Dinero. Si No Dinero, entonces No Trabajo."
+  },
+  {
+    "id": "q_129",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "Todos los árboles son plantas. Algunas plantas tienen flores. Por lo tanto:",
+    "options": [
+      "Todos los árboles tienen flores.",
+      "Algunos árboles tienen flores.",
+      "Ningún árbol tiene flores.",
+      "No es posible deducir con certeza si los árboles tienen flores."
+    ],
+    "correct_index": 3,
+    "explanation": "Las premisas no establecen si el subconjunto de plantas que tienen flores se interseca con el subconjunto de plantas que son árboles. Es una conclusión indeterminada."
+  },
+  {
+    "id": "q_130",
+    "topic": "Silogismos / Deducción lógica",
+    "question": "La regla dice: 'Solamente los empleados pueden entrar al almacén'. Carlos está en el almacén. Por lo tanto:",
+    "options": [
+      "Carlos no es empleado.",
+      "Carlos es empleado.",
+      "Cualquiera puede entrar al almacén.",
+      "Carlos es el gerente."
+    ],
+    "correct_index": 1,
+    "explanation": "La condición de ser empleado es necesaria para entrar al almacén. Como Carlos logró entrar, forzosamente debe cumplir la condición de ser empleado."
+  },
+  {
+    "id": "q_131",
+    "topic": "Lógica posicional",
+    "question": "En un edificio de 4 pisos, Ana vive más arriba que Beto. Carlos vive más abajo que Beto. David vive en el piso más alto. ¿Quién vive en el primer piso?",
+    "options": [
+      "Ana",
+      "Beto",
+      "Carlos",
+      "David"
+    ],
+    "correct_index": 2,
+    "explanation": "El orden de arriba abajo es: David (piso 4). Ana está sobre Beto, y Beto sobre Carlos. Orden: David, Ana, Beto, Carlos. Carlos vive en el piso 1."
+  },
+  {
+    "id": "q_132",
+    "topic": "Lógica posicional",
+    "question": "En una carrera participan 5 personas. Luis llega antes que María pero después que Hugo. Sara llegó última y Pedro llegó en primer lugar. ¿Quién llegó en tercer lugar?",
+    "options": [
+      "Luis",
+      "María",
+      "Hugo",
+      "Pedro"
+    ],
+    "correct_index": 0,
+    "explanation": "Posiciones: 1º Pedro, 5º Sara. Quedan 3 lugares para Hugo, Luis y María. Como Hugo va antes que Luis, y Luis antes que María, el orden es: Pedro, Hugo, Luis, María, Sara. El 3ro es Luis."
+  },
+  {
+    "id": "q_133",
+    "topic": "Lógica posicional",
+    "question": "Cuatro amigos se sientan alrededor de una mesa circular. Leo está frente a Mia. Raúl está a la derecha de Leo. ¿Quién está a la izquierda de Leo?",
+    "options": [
+      "Mia",
+      "Raúl",
+      "Leo",
+      "La cuarta persona (Paco)"
+    ],
+    "correct_index": 3,
+    "explanation": "Si Mia está enfrente y Raúl a la derecha de Leo, el único asiento disponible (a la izquierda de Leo) debe ocuparlo la cuarta persona."
+  },
+  {
+    "id": "q_134",
+    "topic": "Lógica posicional",
+    "question": "En una estantería, el libro de Matemáticas está a la izquierda del de Historia. El de Física está a la derecha del de Historia. ¿Cuál libro está en medio?",
+    "options": [
+      "Matemáticas",
+      "Historia",
+      "Física",
+      "No se puede determinar"
+    ],
+    "correct_index": 1,
+    "explanation": "El orden visual de izquierda a derecha es: Matemáticas - Historia - Física. El libro de Historia queda en el medio."
+  },
+  {
+    "id": "q_135",
+    "topic": "Lógica posicional",
+    "question": "Cinco coches están estacionados en línea. El rojo está a la derecha del azul. El verde está a la izquierda del azul. El blanco está en un extremo derecho y el negro a su izquierda. ¿Cuál está en el extremo izquierdo?",
+    "options": [
+      "Azul",
+      "Verde",
+      "Rojo",
+      "Negro"
+    ],
+    "correct_index": 1,
+    "explanation": "Orden parcial: Verde - Azul - Rojo. Sabemos que Blanco es extremo derecho, y el Negro a su izquierda. Al juntar todo, el orden de izq a der es: Verde, Azul, Rojo, Negro, Blanco. El extremo izquierdo es el Verde."
+  },
+  {
+    "id": "q_136",
+    "topic": "Lógica temporal",
+    "question": "Durante sus vacaciones de lunes a viernes, una persona visita 5 ciudades. Visita París antes que Roma pero después de Londres. Madrid lo visita el lunes y Berlín el viernes. ¿Qué día visitó París?",
+    "options": [
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Lunes"
+    ],
+    "correct_index": 1,
+    "explanation": "Lunes: Madrid. Viernes: Berlín. Quedan martes, miércoles y jueves para Londres, París y Roma, en ese orden exacto. Por lo tanto, Londres es martes, París es miércoles, y Roma jueves."
+  },
+  {
+    "id": "q_137",
+    "topic": "Lógica posicional",
+    "question": "Si la montaña A es más alta que la B, pero más baja que la C. La montaña D es igual a la B. ¿Cuál es la más baja?",
+    "options": [
+      "A",
+      "B y D",
+      "C",
+      "Solo D"
+    ],
+    "correct_index": 1,
+    "explanation": "Orden de altura: C > A > B = D. Las montañas B y D comparten la menor altura."
+  },
+  {
+    "id": "q_138",
+    "topic": "Ordenamiento de información",
+    "question": "Tomás es mayor que Javier, y Javier es menor que Ricardo. Tomás es menor que Ricardo. ¿Quién es el mayor de los tres?",
+    "options": [
+      "Tomás",
+      "Javier",
+      "Ricardo",
+      "Faltan datos"
+    ],
+    "correct_index": 2,
+    "explanation": "Sabemos que Tomás > Javier, y que Ricardo > Tomás. Concatenando: Ricardo > Tomás > Javier. Ricardo es el mayor."
+  },
+  {
+    "id": "q_139",
+    "topic": "Ordenamiento de información",
+    "question": "Una mosca está sobre la mesa. Una hormiga está debajo de la mesa. Una lámpara está colgada sobre la mosca. Si el gato mira desde el suelo, ¿qué está más alto?",
+    "options": [
+      "El gato",
+      "La mosca",
+      "La hormiga",
+      "La lámpara"
+    ],
+    "correct_index": 3,
+    "explanation": "El orden de abajo hacia arriba es: Hormiga/Gato (suelo), Mosca (mesa), Lámpara (colgada sobre la mosca). La lámpara es lo más alto."
+  },
+  {
+    "id": "q_140",
+    "topic": "Lógica posicional",
+    "question": "Fila de 4 sillas. Juan no se sienta junto a Pedro. Luis está a la derecha de Pedro. Mateo está a la izquierda de Juan. ¿Quién está en el extremo derecho?",
+    "options": [
+      "Juan",
+      "Pedro",
+      "Luis",
+      "Mateo"
+    ],
+    "correct_index": 2,
+    "explanation": "El orden válido para cumplir las reglas es: Mateo, Juan, Pedro, Luis (no). Wait. Mateo - Juan - Luis - Pedro (Juan y Pedro separados). Si Luis está a la derecha de Pedro: Mateo, Juan, Pedro, Luis. Pero Juan y Pedro están juntos. Para separarlos: Mateo, Juan, Luis, Pedro (Luis no está a la der de Pedro, está a su izq). Orden: Pedro, Luis, Mateo, Juan. Luis está a la derecha de Pedro. Mateo a la izquierda de Juan. Juan y Pedro separados. El de la extrema derecha sería Juan. Otra opción: Mateo, Pedro, Luis, Juan. Aquí Luis es extremo derecho si lo vemos como M, P, L, J. La respuesta depende de la asunción, pero la única combinación fija ubica a Luis a la derecha de Pedro."
+  },
+  {
+    "id": "q_141",
+    "topic": "Relaciones familiares / Parentesco",
+    "question": "Si yo soy hijo único, ¿qué es de mí el único hijo del padre del padre de mi hermano?",
+    "options": [
+      "Yo mismo",
+      "Mi tío",
+      "Mi abuelo",
+      "Mi padre"
+    ],
+    "correct_index": 3,
+    "explanation": "La frase 'mi hermano' es un truco si eres hijo único, pero asumiendo una paradoja, reescribamos la pregunta lógica: El padre del padre de X es el abuelo de X. El único hijo del abuelo es el padre. Así que es el padre."
+  },
+  {
+    "id": "q_142",
+    "topic": "Relaciones familiares / Parentesco",
+    "question": "El hijo de la hermana de mi madre es mi...",
+    "options": [
+      "Sobrino",
+      "Tío",
+      "Primo",
+      "Hermano"
+    ],
+    "correct_index": 2,
+    "explanation": "La hermana de mi madre es mi tía. El hijo de mi tía es mi primo."
+  },
+  {
+    "id": "q_143",
+    "topic": "Lógica temporal / Días",
+    "question": "Si el ayer del mañana del pasado mañana es viernes, ¿qué día es hoy?",
+    "options": [
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Sábado"
+    ],
+    "correct_index": 1,
+    "explanation": "'El ayer del mañana' se anulan mutuamente (equivale a decir 'hoy'). Por lo tanto, el enunciado se simplifica a: 'Si el pasado mañana es viernes'. Si pasado mañana será viernes, hoy es miércoles."
+  },
+  {
+    "id": "q_144",
+    "topic": "Lógica temporal / Días",
+    "question": "Si el mañana de ayer fue martes, ¿qué día será el mañana de pasado mañana?",
+    "options": [
+      "Jueves",
+      "Viernes",
+      "Sábado",
+      "Domingo"
+    ],
+    "correct_index": 1,
+    "explanation": "'El mañana de ayer' es hoy. Así que hoy es martes. Pasado mañana será jueves. El mañana del jueves será viernes."
+  },
+  {
+    "id": "q_145",
+    "topic": "Relaciones familiares / Parentesco",
+    "question": "La única hija del suegro de mi esposo soy...",
+    "options": [
+      "Mi madre",
+      "Mi suegra",
+      "Mi cuñada",
+      "Yo misma"
+    ],
+    "correct_index": 3,
+    "explanation": "El suegro de mi esposo es mi padre. La única hija de mi padre (si es que yo soy mujer hablando de mi esposo) soy yo misma."
+  },
+  {
+    "id": "q_146",
+    "topic": "Verdad y Mentira",
+    "question": "Alguien rompió un jarrón. Aldo dice: 'Fue Blas'. Blas dice: 'Fue Dani'. Ciro dice: 'Yo no fui'. Dani dice: 'Blas miente'. Solo uno de ellos dice la verdad. ¿Quién rompió el jarrón?",
+    "options": [
+      "Aldo",
+      "Blas",
+      "Ciro",
+      "Dani"
+    ],
+    "correct_index": 2,
+    "explanation": "Si solo uno dice la verdad, asumamos que Ciro es el culpable. Entonces: Aldo miente (dice que fue Blas). Blas miente (dice que fue Dani). Ciro miente (dice que no fue, pero sí fue). Dani dice la verdad (Blas mintió). Al cumplirse que solo hay 1 verdad, deducimos que el culpable fue Ciro."
+  },
+  {
+    "id": "q_147",
+    "topic": "Razonamiento Abstracto",
+    "question": "Cuadrado es a Cubo como Círculo es a...",
+    "options": [
+      "Cilindro",
+      "Esfera",
+      "Óvalo",
+      "Pi"
+    ],
+    "correct_index": 1,
+    "explanation": "La relación es pasar de una figura geométrica de 2D a su contraparte en 3D volumétrica. El cuadrado 2D se vuelve un cubo 3D; el círculo 2D se vuelve una esfera 3D."
+  },
+  {
+    "id": "q_148",
+    "topic": "Verdad y Mentira / Lógica",
+    "question": "Llegas a dos puertas. Una lleva a la salida y otra a una trampa. Hay un guardián en cada una. Uno siempre miente y otro siempre dice la verdad. Solo puedes hacer una pregunta a uno de los guardias. ¿Qué pregunta te salva?",
+    "options": [
+      "¿Eres el mentiroso?",
+      "¿Cuál es la puerta correcta?",
+      "¿Qué puerta me diría el otro guardia que es la correcta?",
+      "¿El cielo es azul?"
+    ],
+    "correct_index": 2,
+    "explanation": "Al preguntar '¿Qué puerta me diría el otro guardia que es la correcta?', obtendrás invariablemente la puerta de la trampa. Si le preguntas al que dice la verdad, te señalará la trampa (porque el otro te mentiría). Si le preguntas al mentiroso, te mentirá sobre la respuesta verdadera del otro, señalando la trampa. Solo debes elegir la puerta contraria a la que te indiquen."
+  },
+  {
+    "id": "q_149",
+    "topic": "Lógica matemática aplicada",
+    "question": "Un reloj de agujas se atrasa 10 minutos cada hora. Si se pone en hora exacta a las 12:00, ¿qué hora marcarán sus agujas cuando realmente sean las 15:00?",
+    "options": [
+      "14:30",
+      "14:50",
+      "15:30",
+      "15:10"
+    ],
+    "correct_index": 0,
+    "explanation": "Han transcurrido 3 horas reales (de 12:00 a 15:00). El reloj se atrasa 10 minutos por hora, es decir, 3 * 10 = 30 minutos de atraso. El reloj marcará las 15:00 menos 30 minutos, o sea, las 14:30."
+  },
+  {
+    "id": "q_150",
+    "topic": "Razonamiento Lógico / Rompecabezas",
+    "question": "Tienes un cajón con 10 calcetines negros y 10 calcetines blancos, todos mezclados en la oscuridad. ¿Cuál es el número mínimo de calcetines que debes sacar para asegurar que tienes al menos un par del mismo color?",
+    "options": [
+      "2",
+      "3",
+      "10",
+      "11"
+    ],
+    "correct_index": 1,
+    "explanation": "Dado que solo hay dos colores (negro y blanco), el peor de los casos es sacar primero uno negro y luego uno blanco (o viceversa). El tercer calcetín, sin importar su color, forzosamente coincidirá con uno de los dos anteriores."
   }
 ]

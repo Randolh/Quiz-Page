@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "q_001",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "En una granja hay conejos y gallinas. Si se cuentan 45 cabezas y 140 patas, ¿cuántos conejos hay?",
+    "options": [
+      "25",
+      "20",
+      "15",
+      "30"
+    ],
+    "correct_index": 0,
+    "explanation": "c+g=45, 4c+2g=140. Multiplicando la primera ecuación por 2 obtenemos 2c+2g=90. Restando: 2c=50, c=25 conejos."
+  },
+  {
+    "id": "q_002",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "En un cine las entradas de adulto cuestan $8 y las de niño $5. Si asistieron 100 personas y se recaudaron $680, ¿cuántos adultos asistieron?",
+    "options": [
+      "40",
+      "60",
+      "50",
+      "70"
+    ],
+    "correct_index": 1,
+    "explanation": "a+n=100, 8a+5n=680. Multiplicando por 5: 5a+5n=500. Restando de la segunda: 3a=180, a=60 adultos."
+  },
+  {
+    "id": "q_003",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "Tres amigos A, B y C suman $100. A tiene el doble que B, y C tiene $10 más que A. ¿Cuánto tiene C?",
+    "options": [
+      "$18",
+      "$36",
+      "$46",
+      "$50"
+    ],
+    "correct_index": 2,
+    "explanation": "A=2B, C=A+10. Sumando: 2B + B + (2B+10) = 100. 5B=90 -> B=18. A=36, por lo que C=46."
+  },
+  {
+    "id": "q_004",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "La edad de un padre es 3 veces la de su hijo. En 10 años, la edad del padre será el doble que la del hijo. ¿Cuál es la edad actual del padre?",
+    "options": [
+      "40",
+      "10",
+      "20",
+      "30"
+    ],
+    "correct_index": 3,
+    "explanation": "P=3H. P+10 = 2(H+10) -> 3H+10 = 2H+20 -> H=10. La edad del padre es 3(10)=30."
+  },
+  {
+    "id": "q_005",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "Tres números x, y, z suman 60. La suma de x e y es 40, y la suma de y y z es 45. ¿Cuál es el valor de y?",
+    "options": [
+      "25",
+      "15",
+      "20",
+      "30"
+    ],
+    "correct_index": 0,
+    "explanation": "x+y+z=60. Como x+y=40, entonces z=20. Sabiendo que y+z=45, y+20=45, por tanto y=25."
+  },
+  {
+    "id": "q_006",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "Un hotel tiene habitaciones dobles y sencillas. Hay un total de 50 habitaciones y 85 camas. ¿Cuántas habitaciones dobles hay?",
+    "options": [
+      "15",
+      "35",
+      "25",
+      "40"
+    ],
+    "correct_index": 1,
+    "explanation": "d+s=50, 2d+s=85. Restando ambas ecuaciones se elimina s: d=35 habitaciones dobles."
+  },
+  {
+    "id": "q_007",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "Por 3 productos (P, Q, R) se sabe que: P+Q=50, Q+R=70, P+R=60. ¿Cuál es el precio del producto R?",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "correct_index": 2,
+    "explanation": "Sumando las 3: 2(P+Q+R) = 180, entonces P+Q+R=90. Si P+Q=50, entonces R = 90-50 = 40."
+  },
+  {
+    "id": "q_008",
+    "topic": "Problemas de mezclas",
+    "question": "Se mezclan 20 litros de alcohol al 40% con 30 litros de alcohol al 60%. ¿Cuál es el porcentaje de concentración de la mezcla resultante?",
+    "options": [
+      "50%",
+      "48%",
+      "55%",
+      "52%"
+    ],
+    "correct_index": 3,
+    "explanation": "Volumen total=50. Alcohol puro=(20*0.4)+(30*0.6)=8+18=26. Porcentaje=(26/50)*100 = 52%."
+  },
+  {
+    "id": "q_009",
+    "topic": "Problemas de mezclas",
+    "question": "¿Cuántos litros de agua se deben añadir a 40 litros de jugo al 30% de pulpa para diluirlo al 20%?",
+    "options": [
+      "20 litros",
+      "10 litros",
+      "15 litros",
+      "30 litros"
+    ],
+    "correct_index": 0,
+    "explanation": "Soluto constante: 40*0.3 = (40+x)*0.2. 12 = 8 + 0.2x. 4 = 0.2x. Despejando x = 20."
+  },
+  {
+    "id": "q_010",
+    "topic": "Problemas de mezclas",
+    "question": "Se funden 300g de oro de 18 quilates con 200g de oro de 24 quilates. ¿Cuál es el quilataje de la aleación resultante?",
+    "options": [
+      "21 quilates",
+      "20.4 quilates",
+      "19.8 quilates",
+      "22 quilates"
+    ],
+    "correct_index": 1,
+    "explanation": "Promedio ponderado: (300*18 + 200*24)/500 = (5400 + 4800)/500 = 10200/500 = 20.4."
+  },
+  {
+    "id": "q_011",
+    "topic": "Problemas de mezclas",
+    "question": "Se mezcla un café de $4/kg con otro de $6/kg para obtener 100 kg a un precio de $5.4/kg. ¿Cuántos kg del café de $6/kg se usaron?",
+    "options": [
+      "60 kg",
+      "54 kg",
+      "70 kg",
+      "80 kg"
+    ],
+    "correct_index": 2,
+    "explanation": "4(100-b) + 6b = 540 -> 400 - 4b + 6b = 540 -> 2b = 140 -> b = 70 kg."
+  },
+  {
+    "id": "q_012",
+    "topic": "Problemas de mezclas",
+    "question": "Se tienen 50 litros de agua salada al 10%. ¿Cuánta agua debe evaporarse para que la concentración suba al 25%?",
+    "options": [
+      "20 litros",
+      "25 litros",
+      "10 litros",
+      "30 litros"
+    ],
+    "correct_index": 3,
+    "explanation": "Sal inicial=5 litros. Para que 5L sea el 25%, el volumen total debe ser 20L. Hay que evaporar 50-20=30L."
+  },
+  {
+    "id": "q_013",
+    "topic": "Problemas de mezclas",
+    "question": "Una aleación de cobre y zinc pesa 200g y tiene un 60% de cobre. ¿Cuánto cobre puro se debe añadir para obtener una aleación con 80% de cobre?",
+    "options": [
+      "200 g",
+      "100 g",
+      "150 g",
+      "120 g"
+    ],
+    "correct_index": 0,
+    "explanation": "Cobre inicial = 120g. (120+x) / (200+x) = 0.8. Resolviendo: 120+x = 160 + 0.8x -> 0.2x = 40 -> x = 200."
+  },
+  {
+    "id": "q_014",
+    "topic": "Problemas de mezclas",
+    "question": "Se combinan 100 ml de ácido al 20% con 50 ml de ácido al 50%. ¿Cuál es la concentración final?",
+    "options": [
+      "35%",
+      "30%",
+      "25%",
+      "40%"
+    ],
+    "correct_index": 1,
+    "explanation": "(100*0.2 + 50*0.5) / 150 = (20 + 25) / 150 = 45/150 = 0.3 o 30%."
+  },
+  {
+    "id": "q_015",
+    "topic": "Secuencias numéricas",
+    "question": "¿Cuál es el número que sigue en la secuencia: 2, 6, 12, 20, 30, ...?",
+    "options": [
+      "40",
+      "36",
+      "42",
+      "44"
+    ],
+    "correct_index": 2,
+    "explanation": "Las diferencias entre términos son +4, +6, +8, +10. La siguiente es +12. 30+12=42. Equivale a n^2+n."
+  },
+  {
+    "id": "q_016",
+    "topic": "Secuencias numéricas",
+    "question": "Identifica el término faltante: 1, 1, 2, 3, 5, 8, __, 21.",
+    "options": [
+      "11",
+      "12",
+      "14",
+      "13"
+    ],
+    "correct_index": 3,
+    "explanation": "Sucesión de Fibonacci, donde cada número es la suma de los dos anteriores: 5 + 8 = 13."
+  },
+  {
+    "id": "q_017",
+    "topic": "Secuencias numéricas",
+    "question": "¿Qué número continúa en la serie: 3, 9, 27, 81, ...?",
+    "options": [
+      "243",
+      "162",
+      "224",
+      "324"
+    ],
+    "correct_index": 0,
+    "explanation": "Cada término se multiplica por 3 (potencias de 3). El siguiente es 81 * 3 = 243."
+  },
+  {
+    "id": "q_018",
+    "topic": "Secuencias numéricas",
+    "question": "Encuentra el siguiente número: 5, 11, 23, 47, ...",
+    "options": [
+      "85",
+      "95",
+      "93",
+      "101"
+    ],
+    "correct_index": 1,
+    "explanation": "El patrón es multiplicar el anterior por 2 y sumar 1. 47 * 2 + 1 = 95."
+  },
+  {
+    "id": "q_019",
+    "topic": "Secuencias numéricas",
+    "question": "¿Cuál es el próximo término: 120, 60, 20, 5, ...?",
+    "options": [
+      "2.5",
+      "0",
+      "1",
+      "2"
+    ],
+    "correct_index": 2,
+    "explanation": "Los términos se dividen progresivamente entre 2, 3 y 4. El siguiente se divide entre 5. 5 / 5 = 1."
+  },
+  {
+    "id": "q_020",
+    "topic": "Secuencias numéricas",
+    "question": "Determina el siguiente valor en la secuencia: 2, 5, 10, 17, 26, ...",
+    "options": [
+      "35",
+      "39",
+      "41",
+      "37"
+    ],
+    "correct_index": 3,
+    "explanation": "Las diferencias aumentan en números impares (+3, +5, +7, +9). La siguiente suma es +11. 26 + 11 = 37."
+  },
+  {
+    "id": "q_021",
+    "topic": "Secuencias numéricas",
+    "question": "Completa la serie: 8, 27, 64, 125, ...",
+    "options": [
+      "216",
+      "256",
+      "196",
+      "343"
+    ],
+    "correct_index": 0,
+    "explanation": "Representa los cubos perfectos de números enteros a partir del 2 (2^3, 3^3...). El próximo es 6^3 = 216."
+  },
+  {
+    "id": "q_022",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "Un rectángulo tiene un área de 48 m² y su largo es el triple de su ancho. ¿Cuál es su perímetro?",
+    "options": [
+      "28 m",
+      "32 m",
+      "36 m",
+      "24 m"
+    ],
+    "correct_index": 1,
+    "explanation": "Área = 3w * w = 48 -> 3w^2 = 48 -> w = 4. El largo es 12. Perímetro = 2*(4 + 12) = 32."
+  },
+  {
+    "id": "q_023",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "Un círculo está inscrito en un cuadrado de lado 10. ¿Cuál es el área del cuadrado que NO está ocupada por el círculo?",
+    "options": [
+      "100 - 100π",
+      "100 - 50π",
+      "100 - 25π",
+      "100 - 10π"
+    ],
+    "correct_index": 2,
+    "explanation": "Área del cuadrado = 100. El círculo tiene radio 5, su área es π*(5^2) = 25π. Área restante: 100 - 25π."
+  },
+  {
+    "id": "q_024",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "Si la arista de un cubo se duplica, ¿en qué factor aumenta su volumen?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct_index": 3,
+    "explanation": "El volumen original es L^3. El nuevo es (2L)^3 = 8L^3. El volumen aumenta en un factor de 8."
+  },
+  {
+    "id": "q_025",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "El área de un triángulo rectángulo cuyos catetos miden 6 cm y 8 cm es:",
+    "options": [
+      "24 cm²",
+      "48 cm²",
+      "14 cm²",
+      "20 cm²"
+    ],
+    "correct_index": 0,
+    "explanation": "El área se calcula como (base * altura) / 2 = (6 * 8) / 2 = 48 / 2 = 24 cm²."
+  },
+  {
+    "id": "q_026",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "Un cilindro tiene un radio de 3 m y una altura igual al doble de su radio. ¿Cuál es su volumen?",
+    "options": [
+      "36π m³",
+      "54π m³",
+      "27π m³",
+      "18π m³"
+    ],
+    "correct_index": 1,
+    "explanation": "Radio=3, Altura=6. Volumen = π * r^2 * h = π * 9 * 6 = 54π m³."
+  },
+  {
+    "id": "q_027",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "Las diagonales de un rombo miden 10 cm y 24 cm. ¿Cuál es su perímetro?",
+    "options": [
+      "60 cm",
+      "34 cm",
+      "52 cm",
+      "68 cm"
+    ],
+    "correct_index": 2,
+    "explanation": "Las diagonales forman triángulos rectángulos de catetos 5 y 12. La hipotenusa es 13. Perímetro = 4 * 13 = 52."
+  },
+  {
+    "id": "q_028",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "Una esfera está inscrita en un cilindro recto. Si el volumen de la esfera es 36π, ¿cuál es el volumen del cilindro?",
+    "options": [
+      "72π",
+      "48π",
+      "60π",
+      "54π"
+    ],
+    "correct_index": 3,
+    "explanation": "Vol_esfera = 4/3 π r^3 = 36π -> r=3. El cilindro circunscrito tiene radio 3 y altura 6. Vol = π*(3^2)*6 = 54π."
+  },
+  {
+    "id": "q_029",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "El área de un hexágono regular es 24√3 cm². ¿Cuál es su perímetro?",
+    "options": [
+      "24 cm",
+      "36 cm",
+      "12 cm",
+      "18 cm"
+    ],
+    "correct_index": 0,
+    "explanation": "Área = 6 * (L^2 √3 / 4) = 24√3 -> (3/2) L^2 = 24 -> L^2 = 16 -> L = 4. Perímetro = 6 * 4 = 24."
+  },
+  {
+    "id": "q_030",
+    "topic": "Triángulos semejantes",
+    "question": "A la misma hora, un poste de 4m proyecta una sombra de 6m. ¿Cuál es la altura de un árbol cuya sombra mide 3m?",
+    "options": [
+      "1.5 m",
+      "2 m",
+      "3 m",
+      "4.5 m"
+    ],
+    "correct_index": 1,
+    "explanation": "Por triángulos semejantes: Altura/Sombra = 4/6 = h/3. Despejando h = (4*3)/6 = 2m."
+  },
+  {
+    "id": "q_031",
+    "topic": "Triángulos semejantes",
+    "question": "En un triángulo ABC, una línea PQ es paralela al lado BC. Si AP=4, PB=2, y AQ=6, ¿cuál es la medida de QC?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correct_index": 2,
+    "explanation": "Por el teorema de Tales, las proporciones se mantienen: AP/PB = AQ/QC -> 4/2 = 6/QC -> QC = 3."
+  },
+  {
+    "id": "q_032",
+    "topic": "Triángulos semejantes",
+    "question": "Si la razón de las áreas de dos triángulos semejantes es 4:9, ¿cuál es la razón de sus lados correspondientes?",
+    "options": [
+      "4:9",
+      "16:81",
+      "2:4.5",
+      "2:3"
+    ],
+    "correct_index": 3,
+    "explanation": "La razón de las áreas es el cuadrado de la razón de semejanza. La raíz cuadrada de 4/9 es 2/3."
+  },
+  {
+    "id": "q_033",
+    "topic": "Triángulos semejantes",
+    "question": "En un triángulo rectángulo, la altura trazada sobre la hipotenusa la divide en segmentos de 4 cm y 9 cm. ¿Cuánto mide dicha altura?",
+    "options": [
+      "6 cm",
+      "5 cm",
+      "7 cm",
+      "36 cm"
+    ],
+    "correct_index": 0,
+    "explanation": "Por el teorema de la altura en triángulos rectángulos: h^2 = m * n. h^2 = 4 * 9 = 36, entonces h = 6."
+  },
+  {
+    "id": "q_034",
+    "topic": "Triángulos semejantes",
+    "question": "Un triángulo rectángulo tiene lados 3, 4 y 5. Otro triángulo semejante tiene un perímetro de 60. ¿Cuál es el área del segundo triángulo?",
+    "options": [
+      "75",
+      "150",
+      "120",
+      "200"
+    ],
+    "correct_index": 1,
+    "explanation": "El perímetro del original es 12. La razón de semejanza es 60/12=5. Área original=6. Nueva área = 6 * (5^2) = 150."
+  },
+  {
+    "id": "q_035",
+    "topic": "Triángulos semejantes",
+    "question": "Una persona de 1.8 m de altura proyecta una sombra de 1.2 m. Si un edificio cercano proyecta una sombra de 20 m, ¿cuál es su altura?",
+    "options": [
+      "24 m",
+      "18 m",
+      "30 m",
+      "36 m"
+    ],
+    "correct_index": 2,
+    "explanation": "Relación de semejanza: h / 20 = 1.8 / 1.2. Resolviendo: h = 20 * 1.5 = 30 m."
+  },
+  {
+    "id": "q_036",
+    "topic": "Triángulos semejantes",
+    "question": "Las bases de un trapecio miden 10 y 15. Una de sus diagonales completas mide 20 y es cortada por la otra. ¿Cuánto mide la parte menor de la diagonal cortada?",
+    "options": [
+      "10",
+      "12",
+      "6",
+      "8"
+    ],
+    "correct_index": 3,
+    "explanation": "Al cruzarse las diagonales forman triángulos semejantes con razón 10/15 = 2/3. x/(20-x) = 2/3 -> 3x = 40-2x -> x=8."
+  },
+  {
+    "id": "q_037",
+    "topic": "Trabajo conjunto",
+    "question": "Ana puede pintar una habitación en 6 horas y Beto en 3 horas. ¿Cuánto tiempo tardarán si trabajan juntos?",
+    "options": [
+      "2 horas",
+      "4.5 horas",
+      "3 horas",
+      "1.5 horas"
+    ],
+    "correct_index": 0,
+    "explanation": "Velocidades: 1/6 y 1/3. Juntos: 1/6 + 2/6 = 3/6 = 1/2. Juntos pintan media habitación por hora, tardarán 2 horas."
+  },
+  {
+    "id": "q_038",
+    "topic": "Trabajo conjunto",
+    "question": "Un grifo A llena un tanque en 4h, el grifo B en 6h, y un desagüe C lo vacía en 12h. Abiertos los tres a la vez, ¿en cuánto tiempo se llena?",
+    "options": [
+      "4 horas",
+      "3 horas",
+      "2.5 horas",
+      "2 horas"
+    ],
+    "correct_index": 1,
+    "explanation": "Velocidad neta: 1/4 + 1/6 - 1/12 = 3/12 + 2/12 - 1/12 = 4/12 = 1/3. Tardarán 3 horas en llenarlo."
+  },
+  {
+    "id": "q_039",
+    "topic": "Trabajo conjunto",
+    "question": "Carlos y David hacen un proyecto en 4 días trabajando juntos. Si Carlos solo tarda 12 días, ¿cuánto tardaría David trabajando solo?",
+    "options": [
+      "8 días",
+      "10 días",
+      "6 días",
+      "5 días"
+    ],
+    "correct_index": 2,
+    "explanation": "Ecuación: 1/C + 1/D = 1/4 -> 1/12 + 1/D = 1/4 -> 1/D = 3/12 - 1/12 = 2/12 = 1/6. David tardaría 6 días."
+  },
+  {
+    "id": "q_040",
+    "topic": "Trabajo conjunto",
+    "question": "Juan hace un trabajo en 10 días y Pedro en 15. Trabajan juntos 3 días y Pedro se retira. ¿Cuántos días más necesitará Juan para terminar el resto?",
+    "options": [
+      "4 días",
+      "6 días",
+      "3 días",
+      "5 días"
+    ],
+    "correct_index": 3,
+    "explanation": "En 3 días avanzan 3*(1/10+1/15) = 3*(5/30) = 1/2. Queda la mitad del trabajo. A Juan, que tarda 10 días, le tomará 5 días acabar la mitad."
+  },
+  {
+    "id": "q_041",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "Si 3 pintores pintan una casa en 8 días, ¿cuántos pintores se necesitan en total para pintar la misma casa en 6 días?",
+    "options": [
+      "4",
+      "5",
+      "2",
+      "6"
+    ],
+    "correct_index": 0,
+    "explanation": "Regla de 3 inversa (más pintores, menos días): Pintores = (3 * 8) / 6 = 24 / 6 = 4."
+  },
+  {
+    "id": "q_042",
+    "topic": "Trabajo conjunto",
+    "question": "Una máquina A es el doble de rápida que la B. Juntas completan una tarea en 8 días. ¿En cuántos días la completaría la máquina A sola?",
+    "options": [
+      "16 días",
+      "12 días",
+      "24 días",
+      "10 días"
+    ],
+    "correct_index": 1,
+    "explanation": "Si A hace 2x de trabajo y B hace x, juntas hacen 3x. 3x = 1/8 -> x = 1/24 (B tarda 24 días). A hace el doble, tarda 12 días."
+  },
+  {
+    "id": "q_043",
+    "topic": "Trabajo conjunto",
+    "question": "Dos máquinas idénticas completan un pedido en 10 horas. Si se les suma una tercera máquina idéntica, ¿en cuánto tiempo terminarán el pedido?",
+    "options": [
+      "7 horas",
+      "6 horas 30 minutos",
+      "6 horas 40 minutos",
+      "5 horas"
+    ],
+    "correct_index": 2,
+    "explanation": "2 máquinas tardan 10h, por lo que 1 máquina tardaría 20h. Tres máquinas tardarán 20/3 horas, que equivale a 6 horas y 40 minutos."
+  },
+  {
+    "id": "q_044",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "Si 5 kg de naranjas cuestan $15, ¿cuánto costarán 8 kg?",
+    "options": [
+      "$20",
+      "$26",
+      "$22",
+      "$24"
+    ],
+    "correct_index": 3,
+    "explanation": "Regla de tres directa: (15 / 5) * 8 = 3 * 8 = 24."
+  },
+  {
+    "id": "q_045",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "12 obreros pueden hacer una obra en 15 días. Si solo se contratan 9 obreros, ¿cuántos días tardarán?",
+    "options": [
+      "20 días",
+      "18 días",
+      "22 días",
+      "16 días"
+    ],
+    "correct_index": 0,
+    "explanation": "Regla de tres inversa: (12 * 15) / 9 = 180 / 9 = 20 días."
+  },
+  {
+    "id": "q_046",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "4 hornos consumen 50 kg de carbón en 2 días. ¿Cuántos kg consumirán 6 hornos en 3 días?",
+    "options": [
+      "100 kg",
+      "112.5 kg",
+      "120 kg",
+      "130.5 kg"
+    ],
+    "correct_index": 1,
+    "explanation": "Regla de tres compuesta: (50 / (4*2)) * (6*3) = (50 / 8) * 18 = 6.25 * 18 = 112.5 kg."
+  },
+  {
+    "id": "q_047",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "Un automóvil viajando a 80 km/h tarda 3 horas en llegar a su destino. ¿Cuánto tardará si viaja a 120 km/h?",
+    "options": [
+      "1.5 horas",
+      "2.5 horas",
+      "2 horas",
+      "1 hora"
+    ],
+    "correct_index": 2,
+    "explanation": "Regla de tres inversa: (80 * 3) / 120 = 240 / 120 = 2 horas."
+  },
+  {
+    "id": "q_048",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "Si 3 impresoras imprimen 100 libros en 4 días, ¿cuántos días tardarán 4 impresoras en imprimir 200 libros?",
+    "options": [
+      "8 días",
+      "5 días",
+      "7 días",
+      "6 días"
+    ],
+    "correct_index": 3,
+    "explanation": "Regla mixta (impresoras inversa, libros directa): Días = 4 * (3/4) * (200/100) = 4 * 0.75 * 2 = 6 días."
+  },
+  {
+    "id": "q_049",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "Una granja tiene pasto para alimentar a 15 vacas durante 20 días. Si se venden 5 vacas, ¿para cuántos días alcanzará el pasto restante?",
+    "options": [
+      "30 días",
+      "25 días",
+      "40 días",
+      "15 días"
+    ],
+    "correct_index": 0,
+    "explanation": "Al vender 5 quedan 10 vacas. Regla de tres inversa: (15 * 20) / 10 = 300 / 10 = 30 días."
+  },
+  {
+    "id": "q_050",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "Una obra fue planificada para 24 días con 15 obreros. Tras 8 días de trabajo, se suman 5 obreros más. ¿En cuántos días terminarán lo que falta?",
+    "options": [
+      "10 días",
+      "12 días",
+      "16 días",
+      "14 días"
+    ],
+    "correct_index": 1,
+    "explanation": "Quedaba trabajo de 16 días para 15 obreros. Al ser 20 obreros, usamos inversa: (15 * 16) / 20 = 240 / 20 = 12 días."
+  },
+  {
+    "id": "q_051",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "Se sabe que la suma de x e y es 10; la de y y z es 15; y la de x y z es 13. ¿Cuál es el valor de z?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct_index": 2,
+    "explanation": "Sumando las tres ecuaciones: 2x + 2y + 2z = 38, dividiendo entre 2 da x+y+z=19. Como x+y=10, entonces z = 19 - 10 = 9."
+  },
+  {
+    "id": "q_052",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "En una caja hay 40 monedas, unas de $5 y otras de $10. Si el valor total es de $275, ¿cuántas monedas de $10 hay?",
+    "options": [
+      "10",
+      "25",
+      "15",
+      "20"
+    ],
+    "correct_index": 2,
+    "explanation": "c+d=40, 5c+10d=275. Multiplicando la primera por 5: 5c+5d=200. Restando a la segunda: 5d=75 -> d=15 monedas de $10."
+  },
+  {
+    "id": "q_053",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "Hace 5 años la edad de Ana era el triple de la de Beto. Hoy sus edades suman 50 años. ¿Qué edad tiene Ana actualmente?",
+    "options": [
+      "35 años",
+      "30 años",
+      "40 años",
+      "25 años"
+    ],
+    "correct_index": 0,
+    "explanation": "(A-5) = 3(B-5) -> A - 3B = -10. Sabiendo que A+B=50 -> A=50-B. (50-B) - 3B = -10 -> 4B = 60 -> B=15. Ana tiene 35."
+  },
+  {
+    "id": "q_054",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "Tres artículos A, B y C tienen distintos precios. 2A+B=$14, B+2C=$16, y A+C=$9. ¿Cuál es el precio del artículo B?",
+    "options": [
+      "$4",
+      "$5",
+      "$6",
+      "$7"
+    ],
+    "correct_index": 2,
+    "explanation": "Sumando las dos primeras: 2A+2B+2C = 30 -> A+B+C = 15. Como A+C=9, el precio de B es 15 - 9 = 6."
+  },
+  {
+    "id": "q_055",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "Un padre deja una herencia: 1/3 para su primer hijo, 1/4 para el segundo y los $5000 restantes para el tercero. ¿De cuánto era la herencia total?",
+    "options": [
+      "$10000",
+      "$15000",
+      "$8000",
+      "$12000"
+    ],
+    "correct_index": 3,
+    "explanation": "La suma de 1/3 y 1/4 es 7/12. El resto es 5/12, que equivale a 5000. Por tanto, el total (12/12) es 12000."
+  },
+  {
+    "id": "q_056",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "La diferencia de dos números es 12 y su cociente es 5/3. ¿Cuál es la suma de ambos números?",
+    "options": [
+      "48",
+      "52",
+      "44",
+      "36"
+    ],
+    "correct_index": 0,
+    "explanation": "x-y=12, x/y=5/3 -> x=5y/3. Sustituyendo: 5y/3 - y = 12 -> 2y/3 = 12 -> y=18. Por lo tanto x=30. Su suma es 48."
+  },
+  {
+    "id": "q_057",
+    "topic": "Ecuaciones de 2 y 3 variables",
+    "question": "Tres números x, y, z suman 100. El primero es el doble del segundo y el tercero es 10 unidades mayor que el primero. ¿Cuál es el valor del primer número (x)?",
+    "options": [
+      "18",
+      "36",
+      "46",
+      "54"
+    ],
+    "correct_index": 1,
+    "explanation": "x=2y, z=x+10. En términos de y: 2y + y + (2y+10) = 100 -> 5y = 90 -> y=18. Como x=2y, x=36."
+  },
+  {
+    "id": "q_058",
+    "topic": "Problemas de mezclas",
+    "question": "Se mezclan 4 litros de pintura con 20% de pigmento azul y 6 litros de pintura con 50% del mismo pigmento. ¿Cuál es el porcentaje de pigmento en la mezcla?",
+    "options": [
+      "35%",
+      "38%",
+      "40%",
+      "32%"
+    ],
+    "correct_index": 1,
+    "explanation": "Pigmento total = (4 * 0.20) + (6 * 0.50) = 0.8 + 3 = 3.8 litros. En 10 litros totales, esto representa el 38%."
+  },
+  {
+    "id": "q_059",
+    "topic": "Problemas de mezclas",
+    "question": "Tenemos 200 litros de agua salada al 15%. ¿Cuántos litros de agua deben evaporarse para que la concentración de sal sea del 25%?",
+    "options": [
+      "80 L",
+      "50 L",
+      "100 L",
+      "120 L"
+    ],
+    "correct_index": 0,
+    "explanation": "Sal = 200 * 0.15 = 30 L. La sal se mantiene. 30 / (200-x) = 0.25 -> 200-x = 120 -> x = 80 L evaporados."
+  },
+  {
+    "id": "q_060",
+    "topic": "Problemas de mezclas",
+    "question": "Se tienen 50 litros de una solución al 40% de alcohol. ¿Cuántos litros de agua pura hay que agregar para obtener una solución al 25%?",
+    "options": [
+      "20 L",
+      "40 L",
+      "30 L",
+      "25 L"
+    ],
+    "correct_index": 2,
+    "explanation": "Alcohol = 50 * 0.40 = 20 L. 20 / (50+x) = 0.25 -> 50+x = 80 -> x = 30 L de agua."
+  },
+  {
+    "id": "q_061",
+    "topic": "Problemas de mezclas",
+    "question": "Se tienen 50g de oro de 12 quilates. ¿Cuántos gramos de oro puro (24 quilates) se deben fundir con ellos para obtener una aleación de 18 quilates?",
+    "options": [
+      "25 g",
+      "75 g",
+      "60 g",
+      "50 g"
+    ],
+    "correct_index": 3,
+    "explanation": " (50*12 + 24x) / (50+x) = 18. Resolviendo: 600 + 24x = 900 + 18x -> 6x = 300 -> x = 50g."
+  },
+  {
+    "id": "q_062",
+    "topic": "Problemas de mezclas",
+    "question": "Un comerciante mezcla 30 kg de café de $4/kg con 20 kg de otro café. Si la mezcla resultante cuesta $5.20/kg, ¿cuál era el precio del segundo café?",
+    "options": [
+      "$6",
+      "$7",
+      "$8",
+      "$6.5"
+    ],
+    "correct_index": 1,
+    "explanation": "(30*4 + 20x) / 50 = 5.20 -> 120 + 20x = 260 -> 20x = 140 -> x = $7/kg."
+  },
+  {
+    "id": "q_063",
+    "topic": "Problemas de mezclas",
+    "question": "Se quiere obtener 100 litros de ácido al 30% mezclando una solución al 20% y otra al 60%. ¿Cuántos litros de la solución al 60% se necesitan?",
+    "options": [
+      "75 L",
+      "50 L",
+      "25 L",
+      "40 L"
+    ],
+    "correct_index": 2,
+    "explanation": "20x + 60(100-x) = 30*100 -> 20x + 6000 - 60x = 3000 -> 40x = 3000 -> x=75 (del 20%). Por ende, 25L del 60%."
+  },
+  {
+    "id": "q_064",
+    "topic": "Problemas de mezclas",
+    "question": "En un bidón hay 40 litros de una mezcla de gasolina y aceite, con un 10% de aceite. ¿Cuánto aceite puro se debe agregar para que represente el 20% del total?",
+    "options": [
+      "4 L",
+      "6 L",
+      "8 L",
+      "5 L"
+    ],
+    "correct_index": 3,
+    "explanation": "Aceite inicial = 4 L. (4+x) / (40+x) = 0.20 -> 4+x = 8 + 0.2x -> 0.8x = 4 -> x = 5 L."
+  },
+  {
+    "id": "q_065",
+    "topic": "Secuencias numéricas",
+    "question": "¿Qué número sigue en la serie: 1, 4, 10, 22, 46, ...?",
+    "options": [
+      "94",
+      "92",
+      "88",
+      "96"
+    ],
+    "correct_index": 0,
+    "explanation": "El patrón es multiplicar por 2 y sumar 2. 46 * 2 = 92 + 2 = 94. (Diferencias: 3, 6, 12, 24, 48)."
+  },
+  {
+    "id": "q_066",
+    "topic": "Secuencias numéricas",
+    "question": "Identifica el siguiente término: 3, 4, 7, 11, 18, 29, ...",
+    "options": [
+      "45",
+      "47",
+      "49",
+      "41"
+    ],
+    "correct_index": 1,
+    "explanation": "Es una sucesión tipo Fibonacci (Números de Lucas) donde cada término es la suma de los dos anteriores. 18 + 29 = 47."
+  },
+  {
+    "id": "q_067",
+    "topic": "Secuencias numéricas",
+    "question": "Encuentra el próximo valor en la secuencia: 2, 5, 11, 23, 47, ...",
+    "options": [
+      "85",
+      "93",
+      "95",
+      "97"
+    ],
+    "correct_index": 2,
+    "explanation": "El patrón es multiplicar el número anterior por 2 y sumar 1. 47 * 2 + 1 = 95."
+  },
+  {
+    "id": "q_068",
+    "topic": "Secuencias numéricas",
+    "question": "Determina el número que continúa: 100, 99, 95, 86, 70, ...",
+    "options": [
+      "54",
+      "40",
+      "50",
+      "45"
+    ],
+    "correct_index": 3,
+    "explanation": "Se restan los cuadrados de los números naturales: -1, -4, -9, -16. La próxima resta es -25. 70 - 25 = 45."
+  },
+  {
+    "id": "q_069",
+    "topic": "Secuencias numéricas",
+    "question": "¿Qué fracción sigue en la serie: 1/2, 2/3, 3/4, 4/5, ...?",
+    "options": [
+      "6/7",
+      "5/6",
+      "1",
+      "7/8"
+    ],
+    "correct_index": 1,
+    "explanation": "Tanto el numerador como el denominador aumentan en 1 unidad secuencialmente. Sigue 5/6."
+  },
+  {
+    "id": "q_070",
+    "topic": "Secuencias numéricas",
+    "question": "Continúa la serie: 5, 6, 9, 14, 21, ...",
+    "options": [
+      "28",
+      "30",
+      "32",
+      "29"
+    ],
+    "correct_index": 1,
+    "explanation": "Las diferencias aumentan en números impares consecutivos: +1, +3, +5, +7. La siguiente diferencia es +9, por lo que 21 + 9 = 30."
+  },
+  {
+    "id": "q_071",
+    "topic": "Secuencias numéricas",
+    "question": "¿Cuál es el siguiente número en la progresión: 2, 6, 24, 120, ...?",
+    "options": [
+      "720",
+      "480",
+      "600",
+      "840"
+    ],
+    "correct_index": 0,
+    "explanation": "Se multiplica por números naturales crecientes: x3, x4, x5. El siguiente multiplicador es x6. 120 * 6 = 720 (Factoriales a partir del 2)."
+  },
+  {
+    "id": "q_072",
+    "topic": "Secuencias numéricas",
+    "question": "Halla el siguiente término de la serie alternada: 8, 4, 12, 6, 18, 9, ...",
+    "options": [
+      "18",
+      "24",
+      "36",
+      "27"
+    ],
+    "correct_index": 3,
+    "explanation": "El patrón alterna entre dividir por 2 y multiplicar por 3. 18 / 2 = 9. Entonces 9 * 3 = 27."
+  },
+  {
+    "id": "q_073",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "Las diagonales de un rombo miden 16 cm y 12 cm. ¿Cuál es su área?",
+    "options": [
+      "48 cm²",
+      "192 cm²",
+      "96 cm²",
+      "120 cm²"
+    ],
+    "correct_index": 2,
+    "explanation": "El área de un rombo es (Diagonal mayor * Diagonal menor) / 2 = (16 * 12) / 2 = 192 / 2 = 96 cm²."
+  },
+  {
+    "id": "q_074",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "Si la circunferencia de un círculo es de 20π, ¿cuál es su área?",
+    "options": [
+      "400π",
+      "100π",
+      "50π",
+      "200π"
+    ],
+    "correct_index": 1,
+    "explanation": "Perímetro = 2πr = 20π, de donde el radio r = 10. El área es π*r² = 100π."
+  },
+  {
+    "id": "q_075",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "La altura de un triángulo equilátero es 4√3. ¿Cuál es su área?",
+    "options": [
+      "8√3",
+      "16√3",
+      "32√3",
+      "12√3"
+    ],
+    "correct_index": 1,
+    "explanation": "Altura = L√3/2. 4√3 = L√3/2 -> L=8. Área = (L²√3)/4 = (64√3)/4 = 16√3."
+  },
+  {
+    "id": "q_076",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "La diagonal de un cubo mide 3√3 cm. ¿Cuál es su volumen?",
+    "options": [
+      "9 cm³",
+      "81 cm³",
+      "27 cm³",
+      "54 cm³"
+    ],
+    "correct_index": 2,
+    "explanation": "La diagonal de un cubo es L√3. Por lo tanto, el lado L es 3. El volumen es L³ = 27 cm³."
+  },
+  {
+    "id": "q_077",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "El área superficial de una esfera es numéricamente igual a su volumen. ¿Cuál es la medida de su radio?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "6"
+    ],
+    "correct_index": 2,
+    "explanation": "Área = 4πr², Volumen = 4/3πr³. Igualando: 4πr² = 4/3πr³ -> r = 3."
+  },
+  {
+    "id": "q_078",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "El área lateral de un cilindro es 40π y su radio es 5. ¿Cuál es su volumen?",
+    "options": [
+      "50π",
+      "100π",
+      "80π",
+      "120π"
+    ],
+    "correct_index": 1,
+    "explanation": "Área lateral = 2πrh = 40π -> 10πh = 40π -> h=4. Volumen = πr²h = π(25)(4) = 100π."
+  },
+  {
+    "id": "q_079",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "Si el largo de un rectángulo aumenta un 20% y su ancho disminuye un 20%, ¿qué sucede con su área original?",
+    "options": [
+      "Aumenta 4%",
+      "No cambia",
+      "Disminuye 4%",
+      "Disminuye 2%"
+    ],
+    "correct_index": 2,
+    "explanation": "Nueva Área = (1.20 L) * (0.80 W) = 0.96 (L*W). Esto equivale al 96% del área original, es decir, disminuye 4%."
+  },
+  {
+    "id": "q_080",
+    "topic": "Cálculo de áreas, perímetros y volúmenes",
+    "question": "En un trapecio isósceles, las bases miden 10 y 20, y su altura es 12. ¿Cuál es su perímetro?",
+    "options": [
+      "56",
+      "50",
+      "60",
+      "46"
+    ],
+    "correct_index": 0,
+    "explanation": "Proyectando la altura, se forma un triángulo rectángulo de base 5 (la mitad de 20-10) y altura 12. La hipotenusa (lado) es 13. Perímetro = 10+20+13+13 = 56."
+  },
+  {
+    "id": "q_081",
+    "topic": "Triángulos semejantes",
+    "question": "Un poste de 3 m proyecta una sombra de 2 m. A la misma hora, un árbol proyecta una sombra de 10 m. ¿Cuál es la altura del árbol?",
+    "options": [
+      "10 m",
+      "12 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct_index": 2,
+    "explanation": "Por semejanza: Altura/Sombra = 3/2 = h/10 -> h = (3 * 10) / 2 = 15 m."
+  },
+  {
+    "id": "q_082",
+    "topic": "Triángulos semejantes",
+    "question": "Un triángulo rectángulo tiene catetos de 6 y 8. Un segundo triángulo semejante tiene una hipotenusa de 25. ¿Cuánto mide el cateto mayor del segundo triángulo?",
+    "options": [
+      "15",
+      "20",
+      "24",
+      "16"
+    ],
+    "correct_index": 1,
+    "explanation": "El triángulo original tiene hipotenusa 10. La razón de semejanza es 25/10 = 2.5. El cateto mayor será 8 * 2.5 = 20."
+  },
+  {
+    "id": "q_083",
+    "topic": "Triángulos semejantes",
+    "question": "Un triángulo tiene base 12 y altura 8. Una paralela a la base lo corta formando un triángulo semejante cuya altura es 6. ¿Cuánto mide la base de este triángulo menor?",
+    "options": [
+      "4",
+      "9",
+      "2",
+      "6"
+    ],
+    "correct_index": 1,
+    "explanation": "La razón de alturas es igual a la razón de las bases: 6/8 = x/12 -> x = (6 * 12) / 8 = 72 / 8 = 9."
+  },
+  {
+    "id": "q_084",
+    "topic": "Triángulos semejantes",
+    "question": "Si la razón de las áreas de dos polígonos semejantes es 16:25, ¿cuál es la razón de sus perímetros correspondientes?",
+    "options": [
+      "16:25",
+      "2:3",
+      "4:5",
+      "8:12"
+    ],
+    "correct_index": 2,
+    "explanation": "La razón de las áreas es el cuadrado de la razón de semejanza lineal (lados o perímetros). La raíz cuadrada de 16/25 es 4/5."
+  },
+  {
+    "id": "q_085",
+    "topic": "Triángulos semejantes",
+    "question": "Un triángulo tiene lados 5, 7 y 9. Otro triángulo semejante tiene su lado menor de 15. ¿Cuánto mide su lado mayor?",
+    "options": [
+      "27",
+      "21",
+      "36",
+      "18"
+    ],
+    "correct_index": 0,
+    "explanation": "La constante de proporcionalidad es 15/5 = 3. El lado mayor original es 9, así que el nuevo es 9 * 3 = 27."
+  },
+  {
+    "id": "q_086",
+    "topic": "Triángulos semejantes",
+    "question": "La altura trazada hacia la hipotenusa de un triángulo rectángulo divide a ésta en segmentos de 2 y 8 cm. ¿Cuánto mide dicha altura?",
+    "options": [
+      "16",
+      "8",
+      "4",
+      "6"
+    ],
+    "correct_index": 2,
+    "explanation": "Teorema de la altura: h² = m * n (producto de las proyecciones). h² = 2 * 8 = 16 -> h = 4."
+  },
+  {
+    "id": "q_087",
+    "topic": "Triángulos semejantes",
+    "question": "Una persona de 1.6 m de altura proyecta una sombra de 0.4 m. Si el edificio en el que está recargada proyecta una sombra de 15 m, ¿cuál es la altura del edificio?",
+    "options": [
+      "50 m",
+      "60 m",
+      "45 m",
+      "75 m"
+    ],
+    "correct_index": 1,
+    "explanation": "La relación de altura a sombra es 1.6 / 0.4 = 4. Por tanto, la altura del edificio es 15 * 4 = 60 m."
+  },
+  {
+    "id": "q_088",
+    "topic": "Trabajo conjunto",
+    "question": "Un obrero A puede hacer un trabajo en 4 horas y otro B lo puede hacer en 12 horas. ¿En cuánto tiempo terminarán si trabajan juntos?",
+    "options": [
+      "3 horas",
+      "4 horas",
+      "2.5 horas",
+      "2 horas"
+    ],
+    "correct_index": 0,
+    "explanation": "Suman sus capacidades: 1/4 + 1/12 = 3/12 + 1/12 = 4/12 = 1/3. Tardarán 3 horas en hacer todo el trabajo."
+  },
+  {
+    "id": "q_089",
+    "topic": "Trabajo conjunto",
+    "question": "Trabajando juntos, Juan y Pedro completan un trabajo en 6 días. Si Juan solo necesita 10 días, ¿cuántos días tardaría Pedro si trabajara solo?",
+    "options": [
+      "12 días",
+      "20 días",
+      "18 días",
+      "15 días"
+    ],
+    "correct_index": 3,
+    "explanation": "1/10 + 1/P = 1/6 -> 1/P = 1/6 - 1/10 = 5/30 - 3/30 = 2/30 = 1/15. Pedro tardaría 15 días."
+  },
+  {
+    "id": "q_090",
+    "topic": "Trabajo conjunto",
+    "question": "Un tanque se llena mediante 3 grifos que por separado tardarían 2h, 3h y 6h respectivamente. ¿Cuánto tardarán en llenarlo si se abren los tres simultáneamente?",
+    "options": [
+      "1.5 horas",
+      "1 hora",
+      "45 min",
+      "2 horas"
+    ],
+    "correct_index": 1,
+    "explanation": "1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. Tardarán exactamente 1 hora."
+  },
+  {
+    "id": "q_091",
+    "topic": "Trabajo conjunto",
+    "question": "Una llave llena una piscina en 5 horas, y un desagüe la vacía en 10 horas. Si estando vacía se abren ambos a la vez, ¿en cuánto tiempo se llenará?",
+    "options": [
+      "15 horas",
+      "5 horas",
+      "10 horas",
+      "8 horas"
+    ],
+    "correct_index": 2,
+    "explanation": "Velocidad resultante: 1/5 - 1/10 = 2/10 - 1/10 = 1/10. Tomará 10 horas en llenarse."
+  },
+  {
+    "id": "q_092",
+    "topic": "Trabajo conjunto",
+    "question": "Dos carpinteros A y B fabrican un mueble en 8 días. A es tres veces más rápido que B. ¿Cuánto tardaría el carpintero B trabajando solo?",
+    "options": [
+      "24 días",
+      "32 días",
+      "16 días",
+      "28 días"
+    ],
+    "correct_index": 1,
+    "explanation": "Si B tiene ritmo x, A tiene 3x. Juntos hacen 4x del trabajo. 4x = 1/8 -> x = 1/32. B tardaría 32 días."
+  },
+  {
+    "id": "q_093",
+    "topic": "Trabajo conjunto",
+    "question": "Carlos y Diana completan una obra. Carlos solo tardaría 10 días y Diana 15. Si por todo el trabajo les pagan $600, ¿cuánto dinero le corresponde a Carlos en proporción a su esfuerzo?",
+    "options": [
+      "$400",
+      "$240",
+      "$300",
+      "$360"
+    ],
+    "correct_index": 3,
+    "explanation": "Juntos hacen 1/10 + 1/15 = 1/6 de obra diaria (tardan 6 días). Carlos hace 6/10 del trabajo, es decir 3/5. 3/5 de $600 es $360."
+  },
+  {
+    "id": "q_094",
+    "topic": "Trabajo conjunto",
+    "question": "Dos obreros juntos terminan una obra en 12 horas. Uno de ellos, trabajando solo, tarda 10 horas menos que el otro. ¿Cuánto tiempo tarda el más rápido por sí solo?",
+    "options": [
+      "15 h",
+      "20 h",
+      "30 h",
+      "12 h"
+    ],
+    "correct_index": 1,
+    "explanation": "1/x + 1/(x+10) = 1/12. Resolviendo (x+10+x)/(x(x+10)) = 1/12 -> x^2 - 14x - 120 = 0 -> (x-20)(x+6)=0. El rápido tarda 20 horas."
+  },
+  {
+    "id": "q_095",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "Si 8 camisas cuestan $120, ¿cuánto costarán 15 camisas idénticas?",
+    "options": [
+      "$225",
+      "$240",
+      "$210",
+      "$250"
+    ],
+    "correct_index": 0,
+    "explanation": "Regla directa: Costo = (120 / 8) * 15 = 15 * 15 = 225."
+  },
+  {
+    "id": "q_096",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "10 pintores pintan un edificio en 6 días. ¿En cuántos días lo pintarán 15 pintores trabajando al mismo ritmo?",
+    "options": [
+      "9 días",
+      "5 días",
+      "4 días",
+      "3 días"
+    ],
+    "correct_index": 2,
+    "explanation": "Regla inversa (más pintores, menos días): Días = (10 * 6) / 15 = 60 / 15 = 4 días."
+  },
+  {
+    "id": "q_097",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "5 hornos consumen 20 toneladas de carbón en 4 días. ¿Cuántas toneladas consumirán 8 hornos idénticos en 6 días?",
+    "options": [
+      "36 ton",
+      "42 ton",
+      "48 ton",
+      "54 ton"
+    ],
+    "correct_index": 2,
+    "explanation": "Regla compuesta directa: Toneladas = 20 * (8/5) * (6/4) = 20 * 1.6 * 1.5 = 48 toneladas."
+  },
+  {
+    "id": "q_098",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "12 vacas consumen 300 kg de forraje en 5 días. ¿Cuántos kg de forraje requerirán 15 vacas en 8 días?",
+    "options": [
+      "450 kg",
+      "500 kg",
+      "600 kg",
+      "750 kg"
+    ],
+    "correct_index": 2,
+    "explanation": "Una vaca en un día come 300 / (12*5) = 5 kg. Entonces, 15 vacas en 8 días comerán 15 * 8 * 5 = 600 kg."
+  },
+  {
+    "id": "q_099",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "Una rueda dentada A de 40 dientes engrana con otra B de 60 dientes. Cuando A da 120 vueltas, ¿cuántas vueltas dará B?",
+    "options": [
+      "180 vueltas",
+      "80 vueltas",
+      "60 vueltas",
+      "100 vueltas"
+    ],
+    "correct_index": 1,
+    "explanation": "Regla inversa (más dientes, menos vueltas): Vueltas B = (40 * 120) / 60 = 4800 / 60 = 80 vueltas."
+  },
+  {
+    "id": "q_100",
+    "topic": "Reglas de tres (directa e inversa)",
+    "question": "10 obreros con rendimiento normal terminan una obra en 15 días. Si se contratan solo 5 obreros pero que tienen un rendimiento del 150%, ¿en cuántos días terminarán la obra?",
+    "options": [
+      "18 días",
+      "15 días",
+      "20 días",
+      "25 días"
+    ],
+    "correct_index": 2,
+    "explanation": "Trabajo total = 10 obreros * 100% * 15 días = 1500 unidades. Tiempo = 1500 / (5 obreros * 150%) = 1500 / 750 = 20 días."
+  }
+]

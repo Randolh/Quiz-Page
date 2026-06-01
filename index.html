@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Quiz</title>
+    <meta name="description" content="Una aplicación web estática para simular exámenes de matemáticas con modo práctica y modo examen.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app-container">
+        
+        <!-- Vista de Inicio -->
+        <section id="home-view" class="view active">
+            <div class="card home-card">
+                <h1>Simulador Quiz</h1>
+                <p>Pon a prueba tus habilidades matemáticas. Elige un modo de juego para comenzar.</p>
+                <div class="home-buttons">
+                    <button id="btn-practice" class="btn btn-primary">Modo Práctica <small>(Sin límite de tiempo)</small></button>
+                    <button id="btn-exam" class="btn btn-secondary">Modo Examen <small>(30 minutos)</small></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vista de Evaluación -->
+        <section id="evaluation-view" class="view hidden">
+            <header class="eval-header">
+                <div class="progress-info">
+                    Pregunta <span id="current-question-num">1</span> de <span id="total-questions-num">40</span>
+                </div>
+                <div id="timer-container" class="timer hidden">
+                    <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <span id="timer-display">30:00</span>
+                </div>
+            </header>
+
+            <div class="eval-layout">
+                <!-- Main Question Area -->
+                <div class="question-area card">
+                    <h2 id="question-text" class="question-text">Cargando pregunta...</h2>
+                    <div id="options-container" class="options-grid">
+                        <!-- Options will be injected here -->
+                    </div>
+                    
+                    <div class="eval-controls">
+                        <button id="btn-prev" class="btn btn-outline" disabled>Anterior</button>
+                        <button id="btn-next" class="btn btn-primary">Siguiente</button>
+                        <button id="btn-finish" class="btn btn-danger hidden">Finalizar Prueba</button>
+                    </div>
+                </div>
+
+                <!-- Navigation Sidebar/Bottom Panel -->
+                <aside class="nav-sidebar card">
+                    <h3>Navegación</h3>
+                    <div id="question-nav-grid" class="nav-grid">
+                        <!-- Navigation bubbles will be injected here -->
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Vista de Resultados -->
+        <section id="results-view" class="view hidden">
+            <div class="card results-card">
+                <h2>Resultados de la Prueba</h2>
+                <div class="results-summary">
+                    <div class="stat-box">
+                        <h3>Puntaje</h3>
+                        <p id="score-display" class="highlight-text">0 / 40</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Tiempo Invertido</h3>
+                        <p id="time-spent-display" class="highlight-text">00:00</p>
+                    </div>
+                </div>
+                
+                <h3 class="review-title">Revisión Detallada</h3>
+                <div id="review-list" class="review-list">
+                    <!-- Review items will be injected here -->
+                </div>
+
+                <div class="results-actions">
+                    <button id="btn-restart" class="btn btn-primary">Volver al Inicio</button>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="overlay">
+        <div class="spinner"></div>
+        <p>Cargando preguntas...</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

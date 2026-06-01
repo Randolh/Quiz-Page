@@ -366,10 +366,15 @@ p { color: var(--text-muted); margin-bottom: 1.5rem; }
 }
 
 .results-actions {
-    text-align: center;
-    margin-top: 2rem;
-    border-top: 1px solid var(--border-color);
-    padding-top: 2rem;
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+.results-actions button {
+    box-shadow: var(--shadow-lg);
 }
 
 /* Loading Overlay */
